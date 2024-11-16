@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+  max-width: 1440px;
+  margin: 0 auto;
+  width: 100%;
+
+  .headingWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+    padding: 100px 0;
+
+    .heading {
+      font-size: 2.25rem;
+      font-weight: bold;
+      background-color: #B9FF66;
+      border-radius: 7px;
+      padding: 0 7px;
+      width: auto;
+    }
+
+    .subheading {
+      display: flex;
+      justify-content: left;
+      font-size: 1.125rem;
+      max-width: 580px;
+    }
+  }
+}
